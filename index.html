@@ -6,6 +6,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>adhesion</title>
+    
+  <style>
+.containerEmbed {
+    height: 250px;
+    width: 300px;
+}
+
+
+  </style>
 </head>
 
 <body>
@@ -157,14 +166,6 @@
       nemo pariatur fuga recusandae nam fugit a corporis eius. Repudiandae amet nam fuga cum nemo?
     </p>
   </div>
-  <style>
-.containerEmbed {
-    height: 250px;
-    width: 300px;
-}
-
-
-  </style>
 <script>
 
 let targetConteiner = document.querySelector('containerEmbed');
@@ -175,7 +176,7 @@ let targetConteiner = document.querySelector('containerEmbed');
         adv.style.height = '100%';
         adv.style.border = 'none';
         adv.allow = 'clipboard-write; autoplay';
-        targetConteiner.body.appendChild(adv);
+        targetConteiner.appendChild(adv);
 
        
 </script>
