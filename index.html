@@ -171,7 +171,7 @@
         adv.style.height = '100%';
         adv.style.border = 'none';
         adv.allow = 'clipboard-write; autoplay';
-        container.body.appendChild(adv);
+        container.appendChild(adv);
 
         const showBannerTimeout = setTimeout(() => {
           targetContainer?.classList.add('adhesion-video');
